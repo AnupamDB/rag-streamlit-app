@@ -157,8 +157,7 @@ def get_vector_db_and_retriever(_uploaded_files):
 
     vector_db = Chroma.from_documents(
         documents=final_chunks,
-        embedding=embedding_model,
-        persist_directory=CHROMA_PERSIST_DIR
+        embedding=embedding_model
     )
 
     retriever = vector_db.as_retriever(search_kwargs={"k": 12})
@@ -252,10 +251,6 @@ def main():
         for key in list(st.session_state.keys()):
             if key != "session_initialized":
                 del st.session_state[key]
-
-        # Optional: delete chroma db
-        if os.path.exists(CHROMA_PERSIST_DIR):
-            shutil.rmtree(CHROMA_PERSIST_DIR, ignore_errors=True)
 
         st.rerun()
 
