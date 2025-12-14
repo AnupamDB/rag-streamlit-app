@@ -1,0 +1,230 @@
+Requirement already satisfied: langchain-core in d:\pla\rag\venv\lib\site-packages (0.1.23)
+Requirement already satisfied: langchain-community in d:\pla\rag\venv\lib\site-packages (0.0.20)
+Requirement already satisfied: langchain-huggingface in d:\pla\rag\venv\lib\site-packages (1.2.0)
+Requirement already satisfied: langchain in d:\pla\rag\venv\lib\site-packages (0.0.353)
+Requirement already satisfied: PyYAML>=5.3 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (6.0.3)
+Requirement already satisfied: anyio<5,>=3 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (4.12.0)
+Requirement already satisfied: jsonpatch<2.0,>=1.33 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (1.33)
+Requirement already satisfied: langsmith<0.0.88,>=0.0.87 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (0.0.87)
+Requirement already satisfied: packaging<24.0,>=23.2 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (23.2)
+Requirement already satisfied: pydantic<3,>=1 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (2.12.5)
+Requirement already satisfied: requests<3,>=2 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (2.32.5)
+Requirement already satisfied: tenacity<9.0.0,>=8.1.0 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (8.5.0)
+Requirement already satisfied: SQLAlchemy<3,>=1.4 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (2.0.45)
+Requirement already satisfied: aiohttp<4.0.0,>=3.8.3 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (3.13.2)
+Requirement already satisfied: dataclasses-json<0.7,>=0.5.7 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (0.6.7)
+Requirement already satisfied: numpy<2,>=1 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (1.26.4)
+Requirement already satisfied: huggingface-hub<1.0.0,>=0.33.4 in d:\pla\rag\venv\lib\site-packages (from langchain-huggingface) (0.36.0)
+INFO: pip is looking at multiple versions of langchain-huggingface to determine which version is compatible with other requirements. This could take a while.
+Collecting langchain-huggingface
+  Using cached langchain_huggingface-1.1.0-py3-none-any.whl.metadata (2.8 kB)
+  Using cached langchain_huggingface-1.0.1-py3-none-any.whl.metadata (2.1 kB)
+  Using cached langchain_huggingface-1.0.0-py3-none-any.whl.metadata (2.1 kB)
+  Using cached langchain_huggingface-0.3.1-py3-none-any.whl.metadata (996 bytes)
+  Using cached langchain_huggingface-0.3.0-py3-none-any.whl.metadata (996 bytes)
+  Using cached langchain_huggingface-0.2.0-py3-none-any.whl.metadata (941 bytes)
+  Using cached langchain_huggingface-0.1.2-py3-none-any.whl.metadata (1.3 kB)
+INFO: pip is still looking at multiple versions of langchain-huggingface to determine which version is compatible with other requirements. This could take a while.
+  Using cached langchain_huggingface-0.1.1-py3-none-any.whl.metadata (1.3 kB)
+  Using cached langchain_huggingface-0.1.0-py3-none-any.whl.metadata (1.3 kB)
+  Using cached langchain_huggingface-0.0.3-py3-none-any.whl.metadata (1.2 kB)
+Collecting langchain-core
+  Using cached langchain_core-0.1.53-py3-none-any.whl.metadata (5.9 kB)
+Collecting sentence-transformers>=2.6.0 (from langchain-huggingface)
+  Using cached sentence_transformers-5.2.0-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: tokenizers>=0.19.1 in d:\pla\rag\venv\lib\site-packages (from langchain-huggingface) (0.22.1)
+Collecting transformers>=4.39.0 (from langchain-huggingface)
+  Using cached transformers-4.57.3-py3-none-any.whl.metadata (43 kB)
+INFO: pip is looking at multiple versions of langchain-core to determine which version is compatible with other requirements. This could take a while.
+Collecting langchain-core
+  Using cached langchain_core-0.1.52-py3-none-any.whl.metadata (5.9 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+Collecting langchain-huggingface
+  Using cached langchain_huggingface-0.0.2-py3-none-any.whl.metadata (1.2 kB)
+Collecting text-generation<0.8.0,>=0.7.0 (from langchain-huggingface)
+  Using cached text_generation-0.7.0-py3-none-any.whl.metadata (8.5 kB)
+Collecting langchain-huggingface
+  Using cached langchain_huggingface-0.0.1-py3-none-any.whl.metadata (1.2 kB)
+Collecting langchain-community
+  Using cached langchain_community-0.4.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting langchain-core
+  Using cached langchain_core-1.2.0-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: langchain-classic<2.0.0,>=1.0.0 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (1.0.0)
+Requirement already satisfied: pydantic-settings<3.0.0,>=2.10.1 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (2.12.0)
+INFO: pip is looking at multiple versions of langchain-community to determine which version is compatible with other requirements. This could take a while.
+Collecting langchain-community
+  Using cached langchain_community-0.4-py3-none-any.whl.metadata (3.0 kB)
+  Using cached langchain_community-0.3.31-py3-none-any.whl.metadata (3.0 kB)
+Collecting langchain
+  Using cached langchain-1.1.3-py3-none-any.whl.metadata (4.9 kB)
+Collecting langchain-community
+  Using cached langchain_community-0.3.30-py3-none-any.whl.metadata (3.0 kB)
+  Using cached langchain_community-0.3.29-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.28-py3-none-any.whl.metadata (2.9 kB)
+Collecting langchain-core
+  Using cached langchain_core-0.3.80-py3-none-any.whl.metadata (3.2 kB)
+Collecting langchain
+  Using cached langchain-0.3.27-py3-none-any.whl.metadata (7.8 kB)
+Collecting langchain-community
+  Using cached langchain_community-0.3.27-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.26-py3-none-any.whl.metadata (2.9 kB)
+INFO: pip is still looking at multiple versions of langchain-community to determine which version is compatible with other requirements. This could take a while.
+  Using cached langchain_community-0.3.25-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.24-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.3.23-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.3.22-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.3.21-py3-none-any.whl.metadata (2.4 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached langchain_community-0.3.20-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.3.19-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.3.18-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.3.17-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.3.16-py3-none-any.whl.metadata (2.9 kB)
+Requirement already satisfied: httpx-sse<0.5.0,>=0.4.0 in d:\pla\rag\venv\lib\site-packages (from langchain-community) (0.4.3)
+  Using cached langchain_community-0.3.15-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.14-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.13-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.12-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.11-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.10-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.9-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.8-py3-none-any.whl.metadata (2.9 kB)
+Collecting SQLAlchemy<2.0.36,>=1.4 (from langchain-community)
+  Using cached SQLAlchemy-2.0.35-cp312-cp312-win_amd64.whl.metadata (9.9 kB)
+Collecting langchain-community
+  Using cached langchain_community-0.3.7-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.6-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.5-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.4-py3-none-any.whl.metadata (2.9 kB)
+  Using cached langchain_community-0.3.3-py3-none-any.whl.metadata (2.8 kB)
+  Using cached langchain_community-0.3.2-py3-none-any.whl.metadata (2.8 kB)
+  Using cached langchain_community-0.3.1-py3-none-any.whl.metadata (2.8 kB)
+  Using cached langchain_community-0.3.0-py3-none-any.whl.metadata (2.8 kB)
+  Using cached langchain_community-0.2.19-py3-none-any.whl.metadata (2.7 kB)
+Collecting langchain
+  Using cached langchain-0.2.17-py3-none-any.whl.metadata (7.1 kB)
+Collecting langchain-core
+  Using cached langchain_core-0.2.43-py3-none-any.whl.metadata (6.2 kB)
+Collecting langchain-community
+  Using cached langchain_community-0.2.18-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.17-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.16-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.15-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.13-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.12-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.11-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.10-py3-none-any.whl.metadata (2.7 kB)
+  Using cached langchain_community-0.2.9-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.2.7-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.2.6-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.2.5-py3-none-any.whl.metadata (2.5 kB)
+  Using cached langchain_community-0.2.4-py3-none-any.whl.metadata (2.4 kB)
+  Using cached langchain_community-0.2.3-py3-none-any.whl.metadata (9.0 kB)
+  Using cached langchain_community-0.2.2-py3-none-any.whl.metadata (8.9 kB)
+  Using cached langchain_community-0.2.1-py3-none-any.whl.metadata (8.9 kB)
+  Using cached langchain_community-0.2.0-py3-none-any.whl.metadata (8.8 kB)
+  Using cached langchain_community-0.0.38-py3-none-any.whl.metadata (8.7 kB)
+  Using cached langchain_community-0.0.37-py3-none-any.whl.metadata (8.7 kB)
+  Using cached langchain_community-0.0.36-py3-none-any.whl.metadata (8.7 kB)
+  Using cached langchain_community-0.0.35-py3-none-any.whl.metadata (8.7 kB)
+  Using cached langchain_community-0.0.34-py3-none-any.whl.metadata (8.5 kB)
+  Using cached langchain_community-0.0.33-py3-none-any.whl.metadata (8.5 kB)
+  Using cached langchain_community-0.0.32-py3-none-any.whl.metadata (8.5 kB)
+  Using cached langchain_community-0.0.31-py3-none-any.whl.metadata (8.4 kB)
+  Using cached langchain_community-0.0.30-py3-none-any.whl.metadata (8.4 kB)
+  Using cached langchain_community-0.0.29-py3-none-any.whl.metadata (8.3 kB)
+  Using cached langchain_community-0.0.28-py3-none-any.whl.metadata (8.3 kB)
+  Using cached langchain_community-0.0.27-py3-none-any.whl.metadata (8.2 kB)
+  Using cached langchain_community-0.0.26-py3-none-any.whl.metadata (8.2 kB)
+  Using cached langchain_community-0.0.25-py3-none-any.whl.metadata (8.1 kB)
+  Using cached langchain_community-0.0.24-py3-none-any.whl.metadata (8.1 kB)
+  Using cached langchain_community-0.0.23-py3-none-any.whl.metadata (8.1 kB)
+  Using cached langchain_community-0.0.22-py3-none-any.whl.metadata (8.1 kB)
+  Using cached langchain_community-0.0.21-py3-none-any.whl.metadata (8.1 kB)
+  Using cached langchain_community-0.0.20-py3-none-any.whl.metadata (8.1 kB)
+INFO: pip is still looking at multiple versions of langchain-core to determine which version is compatible with other requirements. This could take a while.
+  Using cached langchain_community-0.0.19-py3-none-any.whl.metadata (7.9 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached langchain_community-0.0.18-py3-none-any.whl.metadata (7.9 kB)
+  Using cached langchain_community-0.0.17-py3-none-any.whl.metadata (7.9 kB)
+  Using cached langchain_community-0.0.16-py3-none-any.whl.metadata (7.8 kB)
+  Using cached langchain_community-0.0.15-py3-none-any.whl.metadata (7.6 kB)
+  Using cached langchain_community-0.0.14-py3-none-any.whl.metadata (7.5 kB)
+  Using cached langchain_community-0.0.13-py3-none-any.whl.metadata (7.5 kB)
+  Using cached langchain_community-0.0.12-py3-none-any.whl.metadata (7.5 kB)
+  Using cached langchain_community-0.0.11-py3-none-any.whl.metadata (7.3 kB)
+  Using cached langchain_community-0.0.10-py3-none-any.whl.metadata (7.3 kB)
+  Using cached langchain_community-0.0.8-py3-none-any.whl.metadata (7.3 kB)
+  Using cached langchain_community-0.0.7-py3-none-any.whl.metadata (7.3 kB)
+  Using cached langchain_community-0.0.6-py3-none-any.whl.metadata (7.2 kB)
+  Using cached langchain_community-0.0.5-py3-none-any.whl.metadata (7.1 kB)
+  Using cached langchain_community-0.0.4-py3-none-any.whl.metadata (7.0 kB)
+  Using cached langchain_community-0.0.3-py3-none-any.whl.metadata (7.0 kB)
+  Using cached langchain_community-0.0.2-py3-none-any.whl.metadata (5.8 kB)
+  Using cached langchain_community-0.0.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting langchain-core
+  Using cached langchain_core-0.0.13-py3-none-any.whl.metadata (978 bytes)
+Collecting langsmith<1.0.0,>=0.3.45 (from langchain-core)
+  Using cached langsmith-0.4.59-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.7.0 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (4.15.0)
+Requirement already satisfied: uuid-utils<1.0,>=0.12.0 in d:\pla\rag\venv\lib\site-packages (from langchain-core) (0.12.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in d:\pla\rag\venv\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (0.28.1)
+Requirement already satisfied: orjson>=3.9.14 in d:\pla\rag\venv\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (3.11.5)
+Requirement already satisfied: requests-toolbelt>=1.0.0 in d:\pla\rag\venv\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (1.0.0)
+Requirement already satisfied: zstandard>=0.23.0 in d:\pla\rag\venv\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (0.25.0)
+INFO: pip is looking at multiple versions of langchain to determine which version is compatible with other requirements. This could take a while.
+Requirement already satisfied: langgraph<1.1.0,>=1.0.2 in d:\pla\rag\venv\lib\site-packages (from langchain) (1.0.5)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in d:\pla\rag\venv\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.22.0)
+Requirement already satisfied: marshmallow<4.0.0,>=3.18.0 in d:\pla\rag\venv\lib\site-packages (from dataclasses-json<0.7,>=0.5.7->langchain-community) (3.26.1)
+Requirement already satisfied: typing-inspect<1,>=0.4.0 in d:\pla\rag\venv\lib\site-packages (from dataclasses-json<0.7,>=0.5.7->langchain-community) (0.9.0)
+Requirement already satisfied: filelock in d:\pla\rag\venv\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (3.20.0)
+Requirement already satisfied: fsspec>=2023.5.0 in d:\pla\rag\venv\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (2025.12.0)
+Requirement already satisfied: tqdm>=4.42.1 in d:\pla\rag\venv\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (4.67.1)
+Requirement already satisfied: jsonpointer>=1.9 in d:\pla\rag\venv\lib\site-packages (from jsonpatch<2.0,>=1.33->langchain-core) (3.0.0)
+Requirement already satisfied: langchain-text-splitters<2.0.0,>=1.0.0 in d:\pla\rag\venv\lib\site-packages (from langchain-classic<2.0.0,>=1.0.0->langchain-community) (1.0.0)
+Requirement already satisfied: langgraph-checkpoint<4.0.0,>=2.1.0 in d:\pla\rag\venv\lib\site-packages (from langgraph<1.1.0,>=1.0.2->langchain) (3.0.1)
+Requirement already satisfied: langgraph-prebuilt<1.1.0,>=1.0.2 in d:\pla\rag\venv\lib\site-packages (from langgraph<1.1.0,>=1.0.2->langchain) (1.0.5)
+Requirement already satisfied: langgraph-sdk<0.4.0,>=0.3.0 in d:\pla\rag\venv\lib\site-packages (from langgraph<1.1.0,>=1.0.2->langchain) (0.3.0)
+Requirement already satisfied: xxhash>=3.5.0 in d:\pla\rag\venv\lib\site-packages (from langgraph<1.1.0,>=1.0.2->langchain) (3.6.0)
+Requirement already satisfied: annotated-types>=0.6.0 in d:\pla\rag\venv\lib\site-packages (from pydantic<3,>=1->langchain-core) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in d:\pla\rag\venv\lib\site-packages (from pydantic<3,>=1->langchain-core) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in d:\pla\rag\venv\lib\site-packages (from pydantic<3,>=1->langchain-core) (0.4.2)
+Requirement already satisfied: python-dotenv>=0.21.0 in d:\pla\rag\venv\lib\site-packages (from pydantic-settings<3.0.0,>=2.10.1->langchain-community) (1.2.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in d:\pla\rag\venv\lib\site-packages (from requests<3,>=2->langchain-core) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in d:\pla\rag\venv\lib\site-packages (from requests<3,>=2->langchain-core) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\pla\rag\venv\lib\site-packages (from requests<3,>=2->langchain-core) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in d:\pla\rag\venv\lib\site-packages (from requests<3,>=2->langchain-core) (2025.11.12)
+Requirement already satisfied: greenlet>=1 in d:\pla\rag\venv\lib\site-packages (from SQLAlchemy<3,>=1.4->langchain-community) (3.3.0)
+Requirement already satisfied: httpcore==1.* in d:\pla\rag\venv\lib\site-packages (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (1.0.9)
+Requirement already satisfied: h11>=0.16 in d:\pla\rag\venv\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (0.16.0)
+Requirement already satisfied: ormsgpack>=1.12.0 in d:\pla\rag\venv\lib\site-packages (from langgraph-checkpoint<4.0.0,>=2.1.0->langgraph<1.1.0,>=1.0.2->langchain) (1.12.0)
+Requirement already satisfied: colorama in d:\pla\rag\venv\lib\site-packages (from tqdm>=4.42.1->huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (0.4.6)
+Requirement already satisfied: mypy-extensions>=0.3.0 in d:\pla\rag\venv\lib\site-packages (from typing-inspect<1,>=0.4.0->dataclasses-json<0.7,>=0.5.7->langchain-community) (1.1.0)
+Using cached langchain_core-1.2.0-py3-none-any.whl (475 kB)
+Using cached langchain_community-0.4.1-py3-none-any.whl (2.5 MB)
+Using cached langsmith-0.4.59-py3-none-any.whl (413 kB)
+Using cached langchain-1.1.3-py3-none-any.whl (102 kB)
+Installing collected packages: langsmith, langchain-core, langchain-community, langchain
+  Attempting uninstall: langsmith
+    Found existing installation: langsmith 0.0.87
+    Uninstalling langsmith-0.0.87:
+      Successfully uninstalled langsmith-0.0.87
+  Attempting uninstall: langchain-core
+    Found existing installation: langchain-core 0.1.23
+    Uninstalling langchain-core-0.1.23:
+      Successfully uninstalled langchain-core-0.1.23
+  Attempting uninstall: langchain-community
+    Found existing installation: langchain-community 0.0.20
+    Uninstalling langchain-community-0.0.20:
+      Successfully uninstalled langchain-community-0.0.20
+  Attempting uninstall: langchain
+    Found existing installation: langchain 0.0.353
+    Uninstalling langchain-0.0.353:
+      Successfully uninstalled langchain-0.0.353
+Successfully installed langchain-1.1.3 langchain-community-0.4.1 langchain-core-1.2.0 langsmith-0.4.59
