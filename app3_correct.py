@@ -40,7 +40,7 @@ if HF_API_TOKEN == "YOUR_HF_TOKEN":
 
 # --- Core RAG Functions ---
 
-@st.cache_resource(show_spinner=False)
+# @st.cache_resource(show_spinner=False)
 def get_vector_db_and_retriever(_uploaded_files):
     """Loads, chunks, and indexes the documents into ChromaDB."""
     if not _uploaded_files:
@@ -170,7 +170,7 @@ def get_vector_db_and_retriever(_uploaded_files):
     return retriever
 
 
-@st.cache_resource(show_spinner=False)
+# @st.cache_resource(show_spinner=False)
 def get_rag_chain(_retriever, _version=23):
     llm = HuggingFacePipeline.from_model_id(
         model_id="google/flan-t5-small",
