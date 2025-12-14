@@ -239,6 +239,31 @@ def get_rag_chain(_retriever, _version=23):
 # --- Streamlit UI ---
 
 def main():
+     # 🔥 HARD RESET ON BROWSER REFRESH
+    if "session_initialized" not in st.session_state:
+        # First run after browser refresh
+        st.session_state.session_initialized = True
+
+        # Clear cached resources
+        get_vector_db_and_retriever.clear()
+        get_rag_chain.clear()
+
+        # Clear session state except this flag
+        for key in list(st.session_state.keys()):
+            if key != "session_initialized":
+                del st.session_state[key]
+
+        # Optional: delete chroma db
+        if os.path.exists(CHROMA_PERSIST_DIR):
+            shutil.rmtree(CHROMA_PERSIST_DIR, ignore_errors=True)
+
+        st.rerun()
+
+    # 🔑 STEP 2 GOES HERE (RIGHT AFTER RESET)
+    if "uploader_key" not in st.session_state:
+        st.session_state.uploader_key = 0
+
+
     st.set_page_config(
         page_title="RAG Document Q&A",
         page_icon="📚",
@@ -254,7 +279,8 @@ def main():
         uploaded_files = st.file_uploader(
             "Choose PDF or Word files",
             type=["pdf", "docx"],
-            accept_multiple_files=True
+            accept_multiple_files=True,
+            key=f"uploader_{st.session_state.uploader_key}"
         )
 
 
